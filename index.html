@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel File Processor</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Excel File Processor</h1>
+    </header>
+
+    <main>
+        <div class="upload-section">
+            <input type="text" value="292" placeholder="dollar price divider" id="dollarPriceEl"> <br><br>
+            <input type="file" id="fileInput" multiple accept=".xlsx, .xls">
+            <button onclick="processFiles()">Process Files</button>
+        </div>
+
+        <div id="output"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

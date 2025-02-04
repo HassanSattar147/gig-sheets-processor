@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1A4DB5;
+  color: white;
+  padding: 15px;
+  font-size: 24px;
+}
+
+.upload-section {
+  margin: 20px;
+}
+
+input[type="file"] {
+  padding: 10px;
+}
+
+button {
+  background-color: #4D31B4;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #3b258a;
+}
+
+.file-section {
+  width: 80%;
+  margin: 20px auto;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.file-section h2 {
+  background-color: #1A4DB5;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.data-card {
+  background: #f9f9f9;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.data-card strong {
+  color: #1A4DB5;
+}
+
+.packages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.package {
+  flex: 1;
+  background: #e0e0e0;
+  padding: 10px;
+  border-radius: 5px;
+  min-width: 150px;
+}
+
+.faq {
+  margin-top: 5px;
+  cursor: pointer;
+  color: #4D31B4;
+  text-decoration: underline;
+}
+
+.faq-content {
+  display: block;
+  background: #f1f1f1;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.tags {
+  margin-top: 5px;
+}
+
+.tag {
+  display: inline-block;
+  background: #4D31B4;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.stats {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.link-btn {
+  display: inline-block;
+  background-color: #1A4DB5;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
